@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 146px;
+  width: 100%;
+}
+.header-wrapper {
+  width: 100%;
+  max-width: 1149px;
+  align-items: center;
+}
+.header-actions {
+  gap: 27px;
+}
+main {
+  height: max-content;
+  width: 100%;
+  section {
+    height: auto;
+    width: 100%;
+  }
+  .products-wrapper {
+    width: 100%;
+    max-width: 1149px;
+  }
+  .sectionheader {
+    h1 {
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 30.95px;
+      letter-spacing: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: #171717;
+      font-family: lato;
+      font-weight: 400;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+  }
+  .men-products {
+    height: 370px;
+    width: 266px;
+  }
+  .men-product {
+    height: 552px;
+    width: 100%;
+    align-items: center;
+  }
+  .main-footer {
+    height: 387px;
+    width: 100%;
+    padding: 46px;
+    background-image: url("images/Rectangle\ 13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-footer-image {
+    height: 387px;
+    width: 1387px;
+    display: flex;
+  }
+  .main-footer-item {
+    width: 100%;
+    height: 100%;
+    &:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      img {
+        margin-top: -120px;
+      }
+    }
+  }
+  .main-footer-button {
+    height: 56px;
+    width: 224px;
+    cursor: pointer;
+    outline: medium none;
+    border: medium none;
+    background-color: black;
+    margin-top: 28px;
+  }
+}
+footer {
+  height: 429px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .footter {
+    max-width: 1149px;
+    width: 100%;
+    background-color: #02060c;
+    height: 429px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 46px;
+  }
+  .zenin-text {
+    font-family: inter;
+    color: #ffffff;
+  }
+  .footter2 p {
+    font-family: inter;
+    color: #ffffff;
+  }
+  .footter3 p {
+    font-family: inter;
+    color: #ffffff;
+  }
+  .footter4 p {
+    font-family: inter;
+    color: #ffffff;
+  }
+}
