@@ -5,7 +5,7 @@ This is a simple shopping list app.
 ## Usage
 
 ```bash
-git clone https://github.com/ashkan18/my-shop.git
+git clone https://github.com/ashkan-begmaz/my-shop.git
 
 ```
 
