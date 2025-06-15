@@ -109,10 +109,20 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 46px;
+    gap: 300px;
   }
   .zenin-text {
     font-family: inter;
     color: #ffffff;
+    font-weight: 400;
+    gap: 10px;
+    display: flex;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .footer-2 {
+    width: 100%;
   }
   .footter2 p {
     font-family: inter;
@@ -125,5 +135,21 @@ footer {
   .footter4 p {
     font-family: inter;
     color: #ffffff;
+  }
+  .footter a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: inter;
+  }
+  .social-media {
+    gap: 10px;
+    display: flex;
+  }
+  .footter4 {
+    gap: 34px;
+  }
+  .button-image {
+    height: 60px;
+    width: 203px;
   }
 }
