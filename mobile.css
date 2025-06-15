@@ -1,0 +1,94 @@
+@media (max-width: 1050px) {
+  /* Header styles */
+  header {
+    height: 85px;
+    padding: 0px 16px;
+    background-color: #ababab;
+    .header-wrapper {
+      a img {
+        display: block;
+        width: 88px;
+        height: auto;
+      }
+    }
+    .header-actions {
+      img {
+        display: block;
+        width: 16px;
+        height: auto;
+      }
+    }
+  }
+
+  /* Main styles */
+  main {
+    padding: 24px 16px;
+    section {
+      padding-bottom: 40px;
+      .sectionheader {
+        padding-bottom: 16px;
+        h1 {
+          font-size: 20px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+      .men-product {
+        height: auto;
+        flex-wrap: wrap;
+        row-gap: 24px;
+        div {
+          width: 200px;
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+      .main-footer {
+        padding: 24px;
+        flex-direction: column;
+        .main-footer-item:nth-child(1) {
+          order: 2;
+        }
+        .main-footer-item:nth-child(2) {
+          order: 1;
+          img {
+            width: 150px;
+            height: auto;
+            margin-top: 0px;
+          }
+        }
+        .main-footer-item:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  /* Footer styles */
+  footer {
+    height: auto;
+    .footter {
+      height: max-content;
+      flex-direction: column;
+      gap: 100px;
+      .footter1 {
+        order: 2;
+      }
+      .footer-2 {
+        order: 1;
+        flex-wrap: wrap;
+        row-gap: 24px;
+
+        .footter2,
+        .footter3 {
+          height: 150px;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
